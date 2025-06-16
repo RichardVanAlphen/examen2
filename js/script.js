@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $.ajax({
+    /*$.ajax({
     url: '../html/blogArtiekelen.html',
-    context: '#Cursus',
     success: function(data){
         $('#inhoud').append(data)
     },
     error: function(){
         alert('Er is iets fout gegaan. Probeer later opnieuw alstublieft.');
     }
-    });
+    });*/
+    $('#inhoud').load('../html/blogArtiekelen.html #Cursus')
 });
