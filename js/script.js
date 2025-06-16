@@ -8,5 +8,7 @@ $(document).ready(function(){
         alert('Er is iets fout gegaan. Probeer later opnieuw alstublieft.');
     }
     });*/
-    $('#inhoud').load('../html/blogArtiekelen.html #cursus #aanmelding #docent')
+    $('#inhoud').load('../html/blogArtiekelen.html #cursus');
+    $('#inhoud').load('../html/blogArtiekelen.html #aanmelding');
+    $('#inhoud').load('../html/blogArtiekelen.html #docent');
 });
