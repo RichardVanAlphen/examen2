@@ -1,8 +1,9 @@
 $(document).ready(function(){
     $.ajax({
     url: '../html/blogArtiekelen.html',
+    context: '#Cursus',
     success: function(data){
-        $('#inhoud').append(data, {'aantal' : 3})
+        $('#inhoud').append(data)
     },
     error: function(){
         alert('Er is iets fout gegaan. Probeer later opnieuw alstublieft.');
