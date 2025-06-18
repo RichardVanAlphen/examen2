@@ -89,7 +89,7 @@ h1 {
     margin-right: 20px;
     min-height: 500px;
 }
-article p {
+.overOnsArticle p {
     margin-bottom: 30px;
 }
 #fotoHannah {
@@ -103,7 +103,7 @@ article p {
     height: 500px;
 }
 /*blog*/
-article .preview {
+article.preview {
     border-radius: 10px;
     background-color: rgb(255 222 199);
     padding: 5px;
