@@ -109,6 +109,12 @@ article.preview {
     padding: 5px;
     margin-bottom: 10px;
 }
+article.preview:hover {
+    border-radius: 10px;
+    background-color: rgb(255, 200, 160);
+    padding: 5px;
+    margin-bottom: 10px;
+}
 /*tarieven streepjes*/
 hr {
     margin-right: 20px;
