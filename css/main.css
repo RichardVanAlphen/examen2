@@ -102,6 +102,10 @@ article p {
     width: auto;
     height: 500px;
 }
+/*blog*/
+.preview {
+    background-color: rgb(177, 177, 177);
+}
 /*tarieven streepjes*/
 hr {
     margin-right: 20px;
