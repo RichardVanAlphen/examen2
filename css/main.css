@@ -103,9 +103,6 @@ h1 {
     height: 500px;
 }
 /*blog*/
-.fullversion {
-    display: none;
-}
 article.preview {
     border-radius: 10px;
     background-color: rgb(255 222 199);
