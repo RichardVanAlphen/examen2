@@ -2,15 +2,15 @@ $(document).ready(function(){
     $('#inhoud').load('../html/blogArtiekelen.html .preview');
 
     $('#inhoud').on('click', '#cursus', function(){
-        $('#aanmelding').slidetoggle();
-        $('#docent').slidetoggle();
+        $('#aanmelding').slideToggle();
+        $('#docent').slideToggle();
     });
     $('#inhoud').on('click', '#aanmelding', function(){
-        $('#cursus').slidetoggle();
-        $('#docent').slidetoggle();
+        $('#cursus').slideToggle();
+        $('#docent').slideToggle();
     });
     $('#inhoud').on('click', '#docent', function(){
-        $('#cursus').slidetoggle();
-        $('#aanmelding').slidetoggle();
+        $('#cursus').slideToggle();
+        $('#aanmelding').slideToggle();
     });
 });
