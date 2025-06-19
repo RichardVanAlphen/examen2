@@ -1,8 +1,6 @@
 $(document).ready(function(){
     // Laden artiekelen
-    $('#inhoud').load('../html/blogArtiekelen.html .preview', function(){
-        $('.fullversion').hide();
-    });
+    $('#inhoud').load('../html/blogArtiekelen.html .preview');
 
     // Animaties
     // Artiekel openen/sluiten
