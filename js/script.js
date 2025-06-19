@@ -1,13 +1,16 @@
 $(document).ready(function(){
     $('#inhoud').load('../html/blogArtiekelen.html .preview');
 
-    $('#cursus').on('click', function(){
-        console.log('click1');
+    $('#inhoud').on('click', '#cursus', function(){
+        $('#aanmelding').slidetoggle();
+        $('#docent').slidetoggle();
     });
-    $('#aanmelding').on('click', function(){
-        console.log('click2');
+    $('#inhoud').on('click', '#aanmelding', function(){
+        $('#cursus').slidetoggle();
+        $('#docent').slidetoggle();
     });
-    $('#docent').on('click', function(){
-        console.log('click3');
+    $('#inhoud').on('click', '#docent', function(){
+        $('#cursus').slidetoggle();
+        $('#aanmelding').slidetoggle();
     });
 });
