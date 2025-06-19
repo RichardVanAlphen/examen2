@@ -1,8 +1,9 @@
 $(document).ready(function(){
     // Laden artiekelen
-    $('#inhoud').load('../html/blogArtiekelen.html .preview');
-    
-    $('#inhoud .fullversion').hide();
+    $('#inhoud').load('../html/blogArtiekelen.html .preview', function(){
+        $('.fullversion').hide();
+    });
+
     // Animaties
     // Artiekel openen/sluiten
     $('#inhoud').on('click', '#cursus', function(){
